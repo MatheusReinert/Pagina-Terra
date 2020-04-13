@@ -1,0 +1,225 @@
+body{ /* só para exemplo, elimina espaçamento do body a seta um fundo escuro*/
+    margin: 0;
+    font-size: 16px;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ff7212;
+    height: 60px;
+  }
+  
+  .navbar li {
+    float: left;
+    margin-top: 8px;
+  }
+
+
+  
+  .terra{
+
+    font-size: 20px;
+    margin-left: 270px;
+    
+      }
+
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  input{
+
+    margin-top: 10px;
+    margin-left: 16px;
+    border-radius: 300px;
+    height: 20px;
+    width:200px;
+  }
+
+  li span {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+  }
+
+  
+ 
+  
+ 
+  .conteudo {
+    display: table;
+    
+  }
+  
+  .imagem1 {
+    display: table-cell;
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;     
+  
+  }
+
+
+  .imagem2 {
+    display: table-cell;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+      
+  
+  }
+  
+  .texto {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  
+
+  .caixa {
+    position: relative;
+    margin-left: 980px;
+    width: 230px;
+    height: 200px;
+    background: rgb(53, 155, 214);
+    
+  }
+  .cabeca {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: #A6BECF;
+    border-radius: 50%;
+  }
+  .parte_interna_cabeca{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  .orelha-esquerda{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    left: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .orelha-direita{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    right: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .sombra-orelha{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #819CAF;
+  }
+  .olho-esquerdo{
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .olho-direito{
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    right: 21%;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  .bolinha{
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+  }
+  .nariz{
+    position: absolute;
+    background: #BE845F;
+    width: 25%;
+    height: 42.5%;
+    left: 37%;
+    top: 45%;
+    border-radius: 50px;
+    z-index: 4;
+  }
+  .cabelo-esquerdo{
+    position: absolute;
+    top: -8%;
+    left: 30%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  .cabelo-direito{
+    position: absolute;
+    top: -4%;
+    left: 48%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+
+  h3 {
+
+
+color: red;
+
+  }
+
+  span{
+
+font-size: 12px;
+
+  }
+
+
+
+
+
+
+  
